@@ -72,7 +72,18 @@ img {
     border: 10px solid #e57cee; 
     border-radius: 10px; 
 }
-/* For devices with max-width of 768px (tablets and smaller screens) */
+
+/* Enhancing contact Info page */
+.github-link-container {
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ed96f1; /* Dark background for contrast */
+
+
+/* Adjustments: For devices with max-width of 768px (tablets and smaller screens) */
 @media (max-width: 768px) {
     header {
         padding: 20px;
@@ -138,4 +149,5 @@ img {
     .container {
         flex-direction: column;
     }
+}
 }
