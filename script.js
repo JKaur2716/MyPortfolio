@@ -10,7 +10,7 @@ console.log("Today's date is:", new Date());
 
 
 
-
+// Greetings
 const greeting = document.getElementById("greeting");
 const hours = new Date().getHours();
 
@@ -29,3 +29,18 @@ if (hours < 12) {
 }
 greeting.textContent = message; 
 greeting.className = className; 
+
+// Button 
+
+const alertButton = document.getElementById("btn-alert");
+alertButton.addEventListener("click", () => {
+    alert("Hello! I hope you're doing well :)");
+});
+
+alertButton.addEventListener("mouseover", () => {
+    alertButton.innerText = "Good! Now, click!";
+});
+
+alertButton.addEventListener("mouseout", () => {
+    alertButton.innerText = "Click me";
+});

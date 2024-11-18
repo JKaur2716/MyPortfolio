@@ -6,7 +6,8 @@
 I customize the sets of headers, sections, footers etc */
 h1 { background-color: rgb(0, 0, 0);
 padding: 20px;
-color: plum }
+color: plum
+ }
 
 h2 {padding: 20px;
 color: rgb(207, 169, 207)}
@@ -153,13 +154,13 @@ img {
 
 /* customizing CSS for different times of the day */
 }.morning {
-    background-color: #00bbff;
-    color: #070707;
+    background-color: #f4f78a;
+    color: #00a2fff5;
 }
 
 .afternoon {
-    background-color: #037386;
-    color: #fff700;
+    background-color: #023b6a;
+    color: #ffd900;
 }
 
 .evening {
