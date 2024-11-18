@@ -150,4 +150,20 @@ img {
         flex-direction: column;
     }
 }
+
+/* customizing CSS for different times of the day */
+}.morning {
+    background-color: #00bbff;
+    color: #070707;
 }
+
+.afternoon {
+    background-color: #037386;
+    color: #fff700;
+}
+
+.evening {
+    background-color: #011c43;
+    color: #ffffff;
+}
+
